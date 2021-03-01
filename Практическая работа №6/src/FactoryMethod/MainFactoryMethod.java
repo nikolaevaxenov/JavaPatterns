@@ -1,6 +1,6 @@
 package FactoryMethod;
 
-public class Main {
+public class MainFactoryMethod {
     public static void main(String[] args) {
         System.out.println("Zoo in Cape Town, Republic of South Africa");
         Zoo capeTown = new AfricanZoo();
@@ -8,6 +8,7 @@ public class Main {
         capeTown.buyNewAnimal(AnimalType.OWL);
         capeTown.buyNewAnimal(AnimalType.COW);
         capeTown.buyNewAnimal(AnimalType.LION);
+        capeTown.buyNewAnimal(AnimalType.BEAR);
 
         System.out.println("\nZoo in Moscow, Russian Federation");
         Zoo moscow = new RussianZoo();
@@ -15,5 +16,6 @@ public class Main {
         moscow.buyNewAnimal(AnimalType.OWL);
         moscow.buyNewAnimal(AnimalType.COW);
         moscow.buyNewAnimal(AnimalType.LION);
+        moscow.buyNewAnimal(AnimalType.ZEBRA);
     }
 }
