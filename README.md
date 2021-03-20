@@ -8,3 +8,4 @@
 6. [Практическая работа №6](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№6)
 7. [Практическая работа №7](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№7)
 8. [Практическая работа №8](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№8)
+8. [Практическая работа №9](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№9)
