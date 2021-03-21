@@ -1,4 +1,4 @@
-App/Main.java
- App.Main
-App/FileWorker.java
- App.FileWorker
+App/Main/MainApplication.java
+ App.Main.MainApplication
+App/Main/FileWorker.java
+ App.Main.FileWorker
