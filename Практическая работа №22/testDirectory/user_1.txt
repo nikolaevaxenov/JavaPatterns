@@ -1,1 +1,0 @@
-User{id=62b4621e-9abd-11eb-abb7-c73b0245ed12, lastName='Ivanov', firstName='Ivan', middleName='Ivanovich', birthDate='01.01.2000'}

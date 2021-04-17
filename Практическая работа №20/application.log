@@ -1,108 +1,58 @@
-1227 [main] INFO  app.Application.Application
-                – Starting Application using Java 11.0.10 on Frischmann-PC with PID 15840 (C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №20\build\classes\java\main started by frisc in C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №20)
-1230 [main] INFO  app.Application.Application
+830  [main] INFO  app.Application.Application
+                – Starting Application using Java 11.0.10 on Frischmann-PC with PID 2060 (C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №20\build\classes\java\main started by frisc in C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №20)
+836  [main] INFO  app.Application.Application
                 – No active profile set, falling back to default profiles: default
-2000 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+1450 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
                 – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2085 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
-3440 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+1554 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2470 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat initialized with port(s): 8080 (http)
-3463 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+2482 [main] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Initializing ProtocolHandler ["http-nio-8080"]
-3465 [main] INFO  o.a.catalina.core.StandardService
+2482 [main] INFO  o.a.catalina.core.StandardService
                 – Starting service [Tomcat]
-3465 [main] INFO  o.a.catalina.core.StandardEngine
+2482 [main] INFO  o.a.catalina.core.StandardEngine
                 – Starting Servlet engine: [Apache Tomcat/9.0.44]
-3721 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+2613 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring embedded WebApplicationContext
-3721 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 2427 ms
-4025 [main] INFO  o.h.jpa.internal.util.LogHelper
+2613 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1731 ms
+2856 [main] INFO  o.h.jpa.internal.util.LogHelper
                 – HHH000204: Processing PersistenceUnitInfo [name: default]
-4092 [main] INFO  org.hibernate.Version
+2909 [main] INFO  org.hibernate.Version
                 – HHH000412: Hibernate ORM core version 5.4.29.Final
-4292 [main] INFO  o.h.annotations.common.Version
+3060 [main] INFO  o.h.annotations.common.Version
                 – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-4514 [main] INFO  com.zaxxer.hikari.HikariDataSource
+3182 [main] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Starting...
-4882 [main] INFO  com.zaxxer.hikari.HikariDataSource
+3408 [main] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Start completed.
-4926 [main] INFO  org.hibernate.dialect.Dialect
+3427 [main] INFO  org.hibernate.dialect.Dialect
                 – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
-6410 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
-                – SQL Warning Code: 0, SQLState: 00000
-6410 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
-                – ограничение "fk5lidm6cqbc7u4xhqpxm898qme" в таблице "posts" не существует, пропускается
-6473 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+4327 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
                 – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-6489 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+4340 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Initialized JPA EntityManagerFactory for persistence unit 'default'
-7299 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+4980 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
                 – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-7523 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+5173 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
                 – Initializing ExecutorService 'applicationTaskExecutor'
-7908 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+5435 [main] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Starting ProtocolHandler ["http-nio-8080"]
-7973 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+5498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat started on port(s): 8080 (http) with context path ''
-8000 [main] INFO  app.Application.Application
-                – Started Application in 7.461 seconds (JVM running for 10.247)
-1525 [main] INFO  app.Application.Application
-                – Starting Application using Java 11.0.10 on Frischmann-PC with PID 6064 (C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №20\build\classes\java\main started by frisc in C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №20)
-1528 [main] INFO  app.Application.Application
-                – No active profile set, falling back to default profiles: default
-2151 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2229 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
-3491 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat initialized with port(s): 8080 (http)
-3501 [main] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Initializing ProtocolHandler ["http-nio-8080"]
-3502 [main] INFO  o.a.catalina.core.StandardService
-                – Starting service [Tomcat]
-3502 [main] INFO  o.a.catalina.core.StandardEngine
-                – Starting Servlet engine: [Apache Tomcat/9.0.44]
-3627 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
-                – Initializing Spring embedded WebApplicationContext
-3628 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 2042 ms
-3873 [main] INFO  o.h.jpa.internal.util.LogHelper
-                – HHH000204: Processing PersistenceUnitInfo [name: default]
-3942 [main] INFO  org.hibernate.Version
-                – HHH000412: Hibernate ORM core version 5.4.29.Final
-4182 [main] INFO  o.h.annotations.common.Version
-                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-4444 [main] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Starting...
-4672 [main] INFO  com.zaxxer.hikari.HikariDataSource
-                – HikariPool-1 - Start completed.
-4688 [main] INFO  org.hibernate.dialect.Dialect
-                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
-5992 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
-                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-6016 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
-                – Initialized JPA EntityManagerFactory for persistence unit 'default'
-6999 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
-                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-7223 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
-                – Initializing ExecutorService 'applicationTaskExecutor'
-7585 [main] INFO  o.a.coyote.http11.Http11NioProtocol
-                – Starting ProtocolHandler ["http-nio-8080"]
-7628 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
-                – Tomcat started on port(s): 8080 (http) with context path ''
-7638 [main] INFO  app.Application.Application
-                – Started Application in 7.011 seconds (JVM running for 8.812)
-62745 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+5522 [main] INFO  app.Application.Application
+                – Started Application in 5.16 seconds (JVM running for 6.453)
+12233 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring DispatcherServlet 'dispatcherServlet'
-62745 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+12234 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
                 – Initializing Servlet 'dispatcherServlet'
-62746 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
-                – Completed initialization in 1 ms
-63020 [http-nio-8080-exec-2] INFO  app.Application.Aspect
-                – void app.Application.Services.UserService.addUser(User) выполнен за 160мс
-65236 [http-nio-8080-exec-3] INFO  app.Application.Aspect
-                – void app.Application.Services.UserService.addUser(User) выполнен за 2мс
-67531 [http-nio-8080-exec-4] INFO  app.Application.Aspect
-                – List app.Application.Services.UserService.getUsers() выполнен за 112мс
+12237 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+12547 [http-nio-8080-exec-1] INFO  app.Application.Aspect
+                – void app.Application.Services.UserService.addUser(User) выполнен за 146мс
+14323 [http-nio-8080-exec-6] INFO  app.Application.Aspect
+                – void app.Application.Services.UserService.addUser(User) выполнен за 3мс
+16554 [http-nio-8080-exec-3] INFO  app.Application.Aspect
+                – List app.Application.Services.UserService.getUsers() выполнен за 203мс

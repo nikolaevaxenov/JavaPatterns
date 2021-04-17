@@ -16,7 +16,7 @@ public class EmailService {
         message.setFrom("lorememail@bk.ru");
         message.setTo("ghost777t@ya.ru");
         message.setSubject("Test email message");
-        message.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat eget sapien sed lacinia.");
+        message.setText("New GET-request responsed!");
 
         this.emailSender.send(message);
         System.out.println("Email successfully sent!");

@@ -22,3 +22,5 @@
 20. [Практическая работа №20](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№20)
 21. [Практическая работа №21](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№21)
 22. [Практическая работа №22](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№22)
+23. [Практическая работа №23](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№23)
+24. [Практическая работа №24](https://github.com/nikolaevaxenov/JavaPatterns/tree/master/Практическая%20работа%20№24)

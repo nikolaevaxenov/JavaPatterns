@@ -1,0 +1,52 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.4'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'app'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework:spring-context:5.3.4'
+	implementation 'org.springframework:spring-core:5.3.4'
+	implementation 'org.springframework:spring-framework-bom:4.1.5.RELEASE'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.hibernate:hibernate-core:5.4.30.Final'
+	implementation 'org.hibernate:hibernate-annotations:3.5.6-Final'
+	implementation 'org.postgresql:postgresql'
+	implementation 'org.springframework:spring-orm:5.2.8.RELEASE'
+	implementation 'com.zaxxer:HikariCP:4.0.3'
+	implementation 'org.projectlombok:lombok:1.18.18'
+	implementation 'org.springframework.data:spring-data-jpa:2.4.6'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	implementation 'com.betfair.net.java.opendmk:core:1.0-b02'
+	implementation 'org.springframework.security:spring-security-config:5.2.8.RELEASE'
+	implementation 'org.springframework.security.oauth:spring-security-oauth2:2.5.0.RELEASE'
+	implementation 'org.assertj:assertj-core'
+	implementation 'org.springframework.boot:spring-boot-starter-validation:2.4.4'
+	implementation 'org.springframework.security:spring-security-taglibs:5.3.8.RELEASE'
+	implementation 'javax.servlet:jstl:1.2'
+	implementation 'junit:junit'
+	implementation 'org.junit.jupiter:junit-jupiter-api'
+	implementation 'org.mockito:mockito-junit-jupiter'
+}
+
+test {
+	useJUnitPlatform()
+}

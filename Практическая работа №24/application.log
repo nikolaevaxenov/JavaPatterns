@@ -1,0 +1,71 @@
+1161 [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.1.7.Final
+1161 [restartedMain] INFO  app.Application.Application
+                – Starting Application using Java 11.0.10 on Frischmann-PC with PID 14120 (C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №24\build\classes\java\main started by frisc in C:\Users\frisc\GoogleDrive\Study\JavaPatterns\Практическая работа №24)
+1161 [restartedMain] INFO  app.Application.Application
+                – No active profile set, falling back to default profiles: default
+1239 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1239 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2206 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2281 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+3213 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8081 (http)
+3224 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8081"]
+3225 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3225 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.44]
+3353 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3353 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2114 ms
+3548 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3594 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.30.Final
+3744 [restartedMain] INFO  o.h.annotations.common.Version
+                – Hibernate Commons Annotations 3.2.0.Final
+3747 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: 'void org.hibernate.cfg.annotations.reflection.JPAMetadataProvider.<init>(org.hibernate.boot.spi.BootstrapContext)'
+3750 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Stopping service [Tomcat]
+3770 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener
+                – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+3797 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter
+                – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.boot.internal.BootstrapContextImpl.generateHcannReflectionManager(BootstrapContextImpl.java:312)
+
+The following method did not exist:
+
+    'void org.hibernate.cfg.annotations.reflection.JPAMetadataProvider.<init>(org.hibernate.boot.spi.BootstrapContext)'
+
+The method's class, org.hibernate.cfg.annotations.reflection.JPAMetadataProvider, is available from the following locations:
+
+    jar:file:/C:/Users/frisc/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-annotations/3.5.6-Final/a07cb36d5485927f925f941ab6dd61f8ffb4b935/hibernate-annotations-3.5.6-Final.jar!/org/hibernate/cfg/annotations/reflection/JPAMetadataProvider.class
+    jar:file:/C:/Users/frisc/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.30.Final/cc01edcad99375a595ab1b22933857d552684e11/hibernate-core-5.4.30.Final.jar!/org/hibernate/cfg/annotations/reflection/JPAMetadataProvider.class
+
+The class hierarchy was loaded from the following locations:
+
+    org.hibernate.cfg.annotations.reflection.JPAMetadataProvider: file:/C:/Users/frisc/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-annotations/3.5.6-Final/a07cb36d5485927f925f941ab6dd61f8ffb4b935/hibernate-annotations-3.5.6-Final.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.hibernate.cfg.annotations.reflection.JPAMetadataProvider
+
